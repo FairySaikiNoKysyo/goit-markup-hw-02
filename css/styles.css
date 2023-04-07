@@ -1,4 +1,5 @@
-/* $color-iris: rgba(77,90,229,1);
+/* $color-iris: rgba(77,90,229,1); 
+
 
 $color-ocean: rgba(64,75,191,1);
 $color-navy-blue: rgba(46,47,66,1);
@@ -90,8 +91,99 @@ $color-dairy: rgba(252,252,252,1);
 	letter-spacing: 0.04em;
 	text-decoration: underline;
 	text-transform: none;
-} */
-.root {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+} 
+*/
+:root{
+	
+$color-ocean: rgba(64,75,191,1);
+$color-navy-blue: rgba(46,47,66,1);
+$color-green: rgba(49,208,170,1);
+$color-slate: rgba(67,68,85,1);
+$color-light-slate: rgba(142,143,153,1);
+$color-cornflower: rgba(231,233,252,1);
+$color-cloud: rgba(244,244,253,1);
+$color-navy-blue-modal: rgba(46,47,66,0.400);
+$color-grey: rgba(46,47,66,0.700);
+$color-white: rgba(255,255,255,1);
+$color-dairy: rgba(252,252,252,1);
+
 }
+.body{
+	
+}
+/* main classes-start */
+.main-section {
+}
+.section-nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+.contacs-list {
+}
+.contacts-item {
+}
+.hero-title {
+}
+.hero-button {
+}
+.section-we-are {
+}
+.section-list {
+}
+.list-item {
+}
+.main-heading {
+}
+.section-text {
+}
+.section-what-we-are-doing {
+}
+.main-h2 {
+}
+.section-our-team {
+}
+.section-undertitle {
+}
+/* main-classes-end */
+/* portfolio-classes-start */
+.portfolio-header {
+}
+.portfolio-nav {
+}
+.logo {
+}
+.logo-studio {
+}
+.nav-list {
+}
+.nav-item {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.section-filters {
+}
+.filters-list {
+}
+.filters-item {
+}
+.portfolio-section {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-link {
+}
+.portfolio-heading {
+}
+.portfolio-text {
+}
+.portfolio-footer {
+}
+.section-text {
+}
+/* portfolio classes end */
