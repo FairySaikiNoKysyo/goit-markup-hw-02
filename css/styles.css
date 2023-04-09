@@ -93,40 +93,82 @@ $color-dairy: rgba(252,252,252,1);
 	text-transform: none;
 } 
 */
-:root{
-	
-$color-ocean: rgba(64,75,191,1);
-$color-navy-blue: rgba(46,47,66,1);
-$color-green: rgba(49,208,170,1);
-$color-slate: rgba(67,68,85,1);
-$color-light-slate: rgba(142,143,153,1);
-$color-cornflower: rgba(231,233,252,1);
-$color-cloud: rgba(244,244,253,1);
-$color-navy-blue-modal: rgba(46,47,66,0.400);
-$color-grey: rgba(46,47,66,0.700);
-$color-white: rgba(255,255,255,1);
-$color-dairy: rgba(252,252,252,1);
+:root {
+  --main-txt-cl: #434455;
+  --secondary-txt-cl: #2e2f42;
+  --accent-txt-cl: #4d5ae5;
 
+  /* Bg colors */
+  --main-bg-cl: #fcfcfc;
+  --secondary-bg-cl: rgba(244, 244, 253, 1);
+  --accent-bg-cl: #4d5ae5;
+  /* Common colors */
+  --light-gray-cl: #555555;
+  --gray-cl: #9da4bd;
+  /* fonts */
+  --secondary-font: "Raleway", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  /* Text colors */
+
+  /* Bg colors */
+
+  /* Common colors */
+
+  /* Others */
+
+  /* $color-ocean: rgba(64, 75, 191, 1); 
+  $color-navy-blue: rgba(46, 47, 66, 1);
+  $color-green: rgba(49, 208, 170, 1);
+  $color-slate: rgba(67, 68, 85, 1);
+  $color-light-slate: rgba(142, 143, 153, 1);
+  $color-cornflower: rgba(231, 233, 252, 1);
+  $color-cloud: rgba(244, 244, 253, 1);
+  $color-navy-blue-modal: rgba(46, 47, 66, 0.4);
+  $color-grey: rgba(46, 47, 66, 0.7);
+  $color-white: rgba(255, 255, 255, 1);
+   $color-dairy: rgba(252, 252, 252, 1); */
 }
-.body{
-	
+body {
+  font-family: var(--primary-font);
+  color: var(--main-txt-cl);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
+/* reset  */
+.link{
+	text-decoration: none;
+}
+
 /* main classes-start */
-.main-section {
+.main-header-section {
 }
 .section-nav {
 }
-.nav-list {
-}
-.nav-item {
-}
+
 .contacs-list {
 }
 .contacts-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .hero-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--accent-bg-cl);
 }
 .section-we-are {
 }
@@ -135,12 +177,26 @@ $color-dairy: rgba(252,252,252,1);
 .list-item {
 }
 .main-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
 }
 .section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-what-we-are-doing {
 }
 .main-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
 }
 .section-our-team {
 }
@@ -153,12 +209,29 @@ $color-dairy: rgba(252,252,252,1);
 .portfolio-nav {
 }
 .logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--accent-txt-cl);
 }
 .logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--secondary-txt-cl);
 }
 .nav-list {
 }
 .nav-item {
+  color: var(--secondary-txt-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
 }
 .contacts-list {
 }
