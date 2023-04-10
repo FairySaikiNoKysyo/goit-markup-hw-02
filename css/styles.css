@@ -13,98 +13,24 @@ $color-grey: rgba(46,47,66,0.700);
 $color-white: rgba(255,255,255,1);
 $color-dairy: rgba(252,252,252,1);
 @mixin text-style-header-1() {
-	font-size: 56px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 60px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-header-2() {
-	font-size: 36px;
-	font-family: "Roboto";
-	font-weight: 700;
-	font-style: normal;
-	line-height: 40px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: capitalize;
-}
-@mixin text-style-header-3() {
-	font-size: 20px;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-body() {
-	font-size: 16px;
-	font-family: "Roboto";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-body-medium() {
-	font-size: 16px;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-button-text() {
-	font-size: 16px;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-style: normal;
-	line-height: 24px;
-	letter-spacing: 0.04em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-small-text() {
-	font-size: 12px;
-	font-family: "Roboto";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 14px;
-	letter-spacing: 0.04em;
-	text-decoration: none;
-	text-transform: none;
-}
-@mixin text-style-link-text() {
-	font-size: 12px;
-	font-family: "Roboto";
-	font-weight: 400;
-	font-style: normal;
-	line-height: 16px;
-	letter-spacing: 0.04em;
-	text-decoration: underline;
-	text-transform: none;
-} 
+
 */
 :root {
   --main-txt-cl: #434455;
   --secondary-txt-cl: #2e2f42;
-  --accent-txt-cl: #4d5ae5;
-
+  --focused-txt-cl: #4d5ae5;
+  --footer-txt-cl:rgba(244,244,253,1);
+  --hero-txt-color:#fff;
+  --accent-txt-color:#E7E9FC;
+  --hover-txt-color:#404BBF;
   /* Bg colors */
   --main-bg-cl: #fcfcfc;
   --secondary-bg-cl: rgba(244, 244, 253, 1);
   --accent-bg-cl: #4d5ae5;
+  --footer-bg-cl:#2e2f42;
+  --focused-bg-cl:#404BBF;
   /* Common colors */
-  --light-gray-cl: #555555;
-  --gray-cl: #9da4bd;
+
   /* fonts */
   --secondary-font: "Raleway", sans-serif;
   --primary-font: "Roboto", sans-serif;
@@ -136,16 +62,58 @@ body {
   letter-spacing: 0.02em;
 }
 /* reset  */
-.link{
-	text-decoration: none;
-}
+
+
 
 /* main classes-start */
 .main-header-section {
 }
-.section-nav {
+/* heading text  */
+.portfolio-heading,.main-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
 }
-
+/* p text  */
+.portfolio-text,.section-text {
+  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* logo styles */
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--focused-txt-cl);
+  text-decoration: none;
+}
+.logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--secondary-txt-cl);
+ 
+}
+/* header styles */
+.portfolio-nav,.section-nav {
+  list-style: none;
+}
+.nav-item {
+  color: var(--secondary-txt-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style:none;
+  
+}
 .contacs-list {
 }
 .contacts-item {
@@ -153,9 +121,32 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  list-style:none;
+ }
+ .adress-clr{
+  color:var(--main-txt-cl)
+ }
+ .s-clr{
+  color: var(--secondary-txt-cl);
+ }
+ .link{
+  text-decoration: none;
+  list-style:none;
+ }
+ .s-clr:hover,.s-clr:focus{
+  color: var(--hover-txt-color);
+  text-decoration: underline;
+ }
+.adress-clr:hover,.adress-clr:focus{
+  color: var(--hover-txt-color);
+}
+  
+ /* hero styles */
+.hero-section{
+  background-color: var( --footer-bg-cl);
 }
 .hero-title {
-  color: #fff;
+  color:var(--hero-txt-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -167,28 +158,21 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color:var(--hero-txt-color);
   background-color: var(--accent-bg-cl);
+  cursor: pointer;
+}
+.hero-button:hover,.hero-button:focus{
+  background-color: var(--focused-bg-cl);
 }
 .section-we-are {
 }
 .section-list {
 }
 .list-item {
+  list-style: none; 
 }
-.main-heading {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--secondary-txt-cl);
-}
-.section-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 .section-what-we-are-doing {
 }
 .main-h2 {
@@ -199,6 +183,7 @@ body {
   color: var(--secondary-txt-cl);
 }
 .section-our-team {
+  background-color: var(--secondary-bg-cl);
 }
 .section-undertitle {
 }
@@ -206,57 +191,47 @@ body {
 /* portfolio-classes-start */
 .portfolio-header {
 }
-.portfolio-nav {
-}
-.logo {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--accent-txt-cl);
-}
-.logo-studio {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--secondary-txt-cl);
-}
+
+
 .nav-list {
 }
-.nav-item {
-  color: var(--secondary-txt-cl);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  
+
+
+
+.portfolio-footer,.main-footer-section{
+  background-color: var(  --footer-bg-cl);
 }
-.contacts-list {
+.text-footer{
+  color:var(--footer-txt-cl);
 }
-.contacts-item {
-}
+
 .section-filters {
 }
 .filters-list {
 }
 .filters-item {
+  list-style:none ;
+  
+}
+.filters-button{
+  background-color: var(--secondary-bg-cl);
+  color: var(--focused-txt-cl);
+  cursor: pointer;
+}
+.filters-button:hover,.filters-button:focus{
+  color: var(--hero-txt-color);
+  background-color: var(--focused-bg-cl);
 }
 .portfolio-section {
 }
 .portfolio-list {
 }
 .portfolio-item {
+  list-style:none ;
 }
 .portfolio-link {
 }
-.portfolio-heading {
-}
-.portfolio-text {
-}
-.portfolio-footer {
-}
-.section-text {
-}
+
+
+
 /* portfolio classes end */
