@@ -136,6 +136,12 @@ body {
 }
 .list{
   list-style: none;
+  color: var(--secondary-txt-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
 }
 .s-clr:hover,
 .s-clr:focus {
@@ -160,6 +166,7 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-button {
+  font-size: var(--main-txt-cl);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -178,6 +185,7 @@ body {
 }
 .list-item {
   list-style: none;
+  background-color: #fff;
 }
 
 .section-what-we-are-doing {
@@ -188,6 +196,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
+  text-align: center ;
+  text-transform: capitalize ;
 }
 .section-our-team {
   background-color: var(--secondary-bg-cl);
