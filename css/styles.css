@@ -19,16 +19,16 @@ $color-dairy: rgba(252,252,252,1);
   --main-txt-cl: #434455;
   --secondary-txt-cl: #2e2f42;
   --focused-txt-cl: #4d5ae5;
-  --footer-txt-cl:rgba(244,244,253,1);
-  --hero-txt-color:#fff;
-  --accent-txt-color:#E7E9FC;
-  --hover-txt-color:#404BBF;
+  --footer-txt-cl: rgba(244, 244, 253, 1);
+  --hero-txt-color: #fff;
+  --accent-txt-color: #e7e9fc;
+  --hover-txt-color: #404bbf;
   /* Bg colors */
   --main-bg-cl: #fcfcfc;
   --secondary-bg-cl: rgba(244, 244, 253, 1);
   --accent-bg-cl: #4d5ae5;
-  --footer-bg-cl:#2e2f42;
-  --focused-bg-cl:#404BBF;
+  --footer-bg-cl: #2e2f42;
+  --focused-bg-cl: #404bbf;
   /* Common colors */
 
   /* fonts */
@@ -60,16 +60,16 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  background-color: #fff;
 }
 /* reset  */
-
-
 
 /* main classes-start */
 .main-header-section {
 }
 /* heading text  */
-.portfolio-heading,.main-heading {
+.portfolio-heading,
+.main-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -77,8 +77,8 @@ body {
   color: var(--secondary-txt-cl);
 }
 /* p text  */
-.portfolio-text,.section-text {
-  
+.portfolio-text,
+.section-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -91,7 +91,9 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--focused-txt-cl);
-  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
 }
 .logo-studio {
   font-family: var(--secondary-font);
@@ -99,10 +101,10 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--secondary-txt-cl);
- 
 }
 /* header styles */
-.portfolio-nav,.section-nav {
+.portfolio-nav,
+.section-nav {
   list-style: none;
 }
 .nav-item {
@@ -111,8 +113,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  list-style:none;
-  
+  list-style: none;
 }
 .contacs-list {
 }
@@ -121,32 +122,34 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  list-style:none;
- }
- .adress-clr{
-  color:var(--main-txt-cl)
- }
- .s-clr{
+  list-style: none;
+}
+.adress-clr {
+  color: var(--main-txt-cl);
+}
+.s-clr {
   color: var(--secondary-txt-cl);
- }
- .link{
+}
+.link {
   text-decoration: none;
-  list-style:none;
- }
- .s-clr:hover,.s-clr:focus{
+  list-style: none;
+}
+.s-clr:hover,
+.s-clr:focus {
   color: var(--hover-txt-color);
   text-decoration: underline;
- }
-.adress-clr:hover,.adress-clr:focus{
+}
+.adress-clr:hover,
+.adress-clr:focus {
   color: var(--hover-txt-color);
 }
-  
- /* hero styles */
-.hero-section{
-  background-color: var( --footer-bg-cl);
+
+/* hero styles */
+.hero-section {
+  background-color: var(--footer-bg-cl);
 }
 .hero-title {
-  color:var(--hero-txt-color);
+  color: var(--hero-txt-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -158,11 +161,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--hero-txt-color);
+  color: var(--hero-txt-color);
   background-color: var(--accent-bg-cl);
   cursor: pointer;
 }
-.hero-button:hover,.hero-button:focus{
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--focused-bg-cl);
 }
 .section-we-are {
@@ -170,7 +174,7 @@ body {
 .section-list {
 }
 .list-item {
-  list-style: none; 
+  list-style: none;
 }
 
 .section-what-we-are-doing {
@@ -192,17 +196,15 @@ body {
 .portfolio-header {
 }
 
-
 .nav-list {
 }
 
-
-
-.portfolio-footer,.main-footer-section{
-  background-color: var(  --footer-bg-cl);
+.portfolio-footer,
+.main-footer-section {
+  background-color: var(--footer-bg-cl);
 }
-.text-footer{
-  color:var(--footer-txt-cl);
+.text-footer {
+  color: var(--footer-txt-cl);
 }
 
 .section-filters {
@@ -210,15 +212,15 @@ body {
 .filters-list {
 }
 .filters-item {
-  list-style:none ;
-  
+  list-style: none;
 }
-.filters-button{
+.filters-button {
   background-color: var(--secondary-bg-cl);
   color: var(--focused-txt-cl);
   cursor: pointer;
 }
-.filters-button:hover,.filters-button:focus{
+.filters-button:hover,
+.filters-button:focus {
   color: var(--hero-txt-color);
   background-color: var(--focused-bg-cl);
 }
@@ -227,11 +229,9 @@ body {
 .portfolio-list {
 }
 .portfolio-item {
-  list-style:none ;
+  list-style: none;
 }
 .portfolio-link {
 }
-
-
 
 /* portfolio classes end */
