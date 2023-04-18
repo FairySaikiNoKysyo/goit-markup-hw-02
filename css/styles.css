@@ -65,8 +65,7 @@ body {
 /* reset  */
 
 /* main classes-start */
-.main-header-section {
-}
+
 /* heading text  */
 .portfolio-heading,
 .main-heading {
@@ -93,7 +92,6 @@ body {
   color: var(--focused-txt-cl);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
 }
 .logo-studio {
   font-family: var(--secondary-font);
@@ -102,54 +100,53 @@ body {
   line-height: 1.17;
   color: var(--secondary-txt-cl);
 }
+.footer-studio{
+  color: var(--footer-txt-cl);
+}
 /* header styles */
 .portfolio-nav,
 .section-nav {
   list-style: none;
 }
 .nav-item {
+}
+
+.contacts-item {
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.link-styles {
   color: var(--secondary-txt-cl);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  list-style: none;
 }
-.contacs-list {
-}
-.contacts-item {
+
+.adress-styles {
+  color: var(--main-txt-cl);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
+  font-style: normal;
 }
-.adress-clr {
-  color: var(--main-txt-cl);
-}
-.s-clr {
-  color: var(--secondary-txt-cl);
-}
-.link {
-  text-decoration: none;
-  list-style: none;
-}
-.list{
-  list-style: none;
-  color: var(--secondary-txt-cl);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style: none;
-}
-.s-clr:hover,
-.s-clr:focus {
+
+.link-styles:hover,
+.link-styles:focus {
   color: var(--hover-txt-color);
   text-decoration: underline;
 }
-.adress-clr:hover,
-.adress-clr:focus {
+
+.adress-styles:hover,
+.adress-styles:focus {
   color: var(--hover-txt-color);
 }
 
@@ -174,20 +171,21 @@ body {
   color: var(--hero-txt-color);
   background-color: var(--accent-bg-cl);
   cursor: pointer;
+  font-family: var(--primary-font);
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--focused-bg-cl);
 }
-.section-we-are {
-}
+/* we are  */
+
 .section-list {
 }
 .list-item {
-  list-style: none;
-  background-color: #fff;
+  
+ 
 }
-
+/* what we are doing  */
 .section-what-we-are-doing {
 }
 .main-h2 {
@@ -196,20 +194,22 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
-  text-align: center ;
-  text-transform: capitalize ;
+  text-align: center;
+  text-transform: capitalize;
 }
+/* our team  */
 .section-our-team {
   background-color: var(--secondary-bg-cl);
+}
+.team-bg-clr{
+  background-color: #fff;
 }
 .section-undertitle {
 }
 /* main-classes-end */
+
 /* portfolio-classes-start */
 .portfolio-header {
-}
-
-.nav-list {
 }
 
 .portfolio-footer,
