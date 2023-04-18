@@ -110,6 +110,9 @@ body {
 }
 .nav-item {
 }
+.contacts-font-style{
+  font-style: normal;
+}
 
 .contacts-item {
 }
@@ -136,7 +139,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
-  font-style: normal;
+
 }
 
 .link-styles:hover,
