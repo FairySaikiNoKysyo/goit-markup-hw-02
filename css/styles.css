@@ -206,6 +206,10 @@ body {
 }
 .section-undertitle {
 }
+/* footer */
+.text-footer {
+  color:#f4f4fd;
+}
 /* main-classes-end */
 
 /* portfolio-classes-start */
@@ -216,9 +220,7 @@ body {
 .main-footer-section {
   background-color: var(--footer-bg-cl);
 }
-.text-footer {
-  color: var(--footer-txt-cl);
-}
+
 
 .section-filters {
 }
