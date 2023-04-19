@@ -100,7 +100,7 @@ body {
   line-height: 1.17;
   color: var(--secondary-txt-cl);
 }
-.footer-studio{
+.footer-studio {
   color: var(--footer-txt-cl);
 }
 /* header styles */
@@ -110,7 +110,7 @@ body {
 }
 .nav-item {
 }
-.contacts-font-style{
+.contacts-font-style {
   font-style: normal;
 }
 
@@ -139,7 +139,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
-
 }
 
 .link-styles:hover,
@@ -185,8 +184,6 @@ body {
 .section-list {
 }
 .list-item {
-  
- 
 }
 /* what we are doing  */
 .section-what-we-are-doing {
@@ -204,36 +201,39 @@ body {
 .section-our-team {
   background-color: var(--secondary-bg-cl);
 }
-.team-bg-clr{
+.team-bg-clr {
   background-color: #fff;
 }
 .section-undertitle {
 }
 /* footer */
 .text-footer {
-  color:#f4f4fd;
+  color: #f4f4fd;
 }
 /* main-classes-end */
 
 /* portfolio-classes-start */
-
 
 .portfolio-footer,
 .main-footer-section {
   background-color: var(--footer-bg-cl);
 }
 
-
 .section-filters {
 }
 .filters-list {
 }
 .filters-item {
-  list-style: none;
 }
 .filters-button {
   background-color: var(--secondary-bg-cl);
   color: var(--focused-txt-cl);
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .filters-button:hover,
@@ -246,7 +246,6 @@ body {
 .portfolio-list {
 }
 .portfolio-item {
-  list-style: none;
 }
 .portfolio-link {
 }
