@@ -58,8 +58,6 @@ body {
   font-family: var(--primary-font);
   color: var(--main-txt-cl);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   background-color: #fff;
 }
 /* reset  */
@@ -144,7 +142,6 @@ body {
 .link-styles:hover,
 .link-styles:focus {
   color: var(--hover-txt-color);
-  text-decoration: underline;
 }
 
 .adress-styles:hover,
